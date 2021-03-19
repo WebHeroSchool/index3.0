@@ -8,15 +8,33 @@
     display: flex;
     justify-content: space-between;
    }
-   
+
    .logo {
-   // padding: 40px 0;
-   // font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
-    width: 190px;
-    height: 35px;
-   // border: dashed 1px red;
-    background: red;
-    background: url('img/logo.svg');
+    position: relative;
+    padding-left: 44px; 
+    font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+   }
+
+   .logo__circle {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 28px; 
+    height: 28px;  
+    }
+
+   .logo__circle_color_blue { 
+    left: 8px;  
+    top: 56%;   
+    background: #C8DBFB; 
+    opacity: .7;
+    border-radius: 50%;
+    }
+   
+   .logo__circle_color_dark-blue {
+    background: #0056EC;
+    border-radius: 50%;
    }
 
    .menu__item {
