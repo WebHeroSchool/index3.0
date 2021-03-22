@@ -52,8 +52,7 @@
       
     .menu__item:hover {
     opacity: 0.5;     
-    }      
-       
+    }       
        .menu__item:hover:after {       
         position: absolute;      
         left: 0;      
